@@ -1,0 +1,84 @@
+JavaScript Variables
+
+var  -  Can be reassigned and redeclared (function-scoped).
+syntax: var variableName = value;
+
+let -  Can be reassigned but cannot be redeclared in the same scope (block-scoped). must assign a value.
+syntax: let variableName = value;
+
+const - Cannot be reassigned and cannot be redeclared (block-scoped).
+syntax: const variableName = value;
+
+ object - An object is a collection of key–value pairs used to store related data and functions.
+ syntax: var objectName = {key: value}; - can be changed and redeclared in the same scope - 
+
+ array - An array is a special variable, which can hold more than one value at a time.
+ syntax: var arrayName = [value1, value2, value3];
+ push - adds an element to the end of an array syntax: arrayName.push(value);
+ pop - removes the last element from an array syntax: arrayName.pop();
+ Primitives data types - A primitive is a data type that has no properties. It is a value, which can be changed but cannot be changed.
+ syntax: var variableName = value;
+
+ Non Primitives data types - An object is a collection of key–value pairs used to store related data and functions.
+ syntax: var objectName = {key: value};
+
+ Hoisting - The process of declaring a variable before using it.in without any keyword.
+ 
+ scope - The scope of a variable is the part of the program where the variable can be used.
+ 
+ global scope - A global variable is a variable that is accessible in any part of the program.
+ 
+ local scope - A local variable is a variable that is only accessible in a specific part of the program.
+
+ block scope - A block scope is a scope that is limited to a specific block of code.
+
+ coercion - The process of converting one data type to another data type in improperly.
+
+ undefined - A variable that is declared but not assigned a value.
+ 
+ null - A special value that is used to indicate the absence of a value.
+
+ NaN - A special value that is used to indicate that a number is not a number.
+
+ NaN - A special value that is used to indicate that a number is not a number.
+
+ logical operators - An operator that is used to compare two values and return a boolean value.
+
+ types of logical operators - Logical operators are used to compare two values and return a boolean value.
+
+ && - Logical AND - Returns true if both operands are true. Returns false if either operand is false.
+ || - Logical OR - Returns true if either operand is true. Returns false if both operands are false.
+ ! - Logical NOT - Returns true if the operand is false. Returns false if the operand is true. 
+ Equality operators - An operator that is used to compare two values and return a boolean value.
+
+ types of equality operators - Equality operators are used to compare two values and return a boolean value.
+
+ == - Equality - Returns true if the values are equal. Returns false if the values are not equal.
+ === - Strict equality - Returns true if the values are equal and of the same type. Returns false if the values are not equal or of different types.
+ != - Inequality - Returns true if the values are not equal. Returns false if the values are equal.
+ !== - Strict inequality - Returns true if the values are not equal or of different types. Returns false if the values are equal and of the same type.
+ nullish coalescing operator - An operator that is used to assign a value to a variable if the value is null or undefined.
+
+ types of nullish coalescing operator - Nullish coalescing operator is used to assign a value to a variable if the value is null or undefined.
+
+ ?? - Nullish coalescing operator - Returns the first operand if it is not null or undefined. Returns the second operand if the first operand is null or undefined.
+
+ ternary operator - An operator that is used to assign a value to a variable based on a condition.
+
+ types of ternary operator - Ternary operator is used to assign a value to a variable based on a condition.
+
+ ? - Ternary operator - Returns the first operand if the condition is true. Returns the second operand if the condition is false.
+ : - Ternary operator - Returns the second operand if the condition is true. Returns the third operand if the condition is false.
+
+ typeof operator - An operator that is used to return the type of a value.
+
+ typeof - Returns the type of a value.
+ truethy - A value that is considered true when used in a boolean context.
+ falsy - A value that is considered false when used in a boolean context.
+ template literals - A string that can contain variables and expressions.
+ what are template literals - Template literals are strings that can contain variables and expressions.
+ template literal syntax - ${expression}
+ symbols - A symbol is a unique value that is used to identify an object.
+ instanceof operator - An operator that is used to check if an object is an instance of a class.
+ instanceof - Returns true if the object is an instance of the class. Returns false if the object is not an instance of the class.
+ string methods - A method is a function that is used to perform an action on a string.
