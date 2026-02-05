@@ -40,8 +40,6 @@ syntax: const variableName = value;
 
  NaN - A special value that is used to indicate that a number is not a number.
 
- NaN - A special value that is used to indicate that a number is not a number.
-
  logical operators - An operator that is used to compare two values and return a boolean value.
 
  types of logical operators - Logical operators are used to compare two values and return a boolean value.
@@ -81,4 +79,4 @@ syntax: const variableName = value;
  symbols - A symbol is a unique value that is used to identify an object.
  instanceof operator - An operator that is used to check if an object is an instance of a class.
  instanceof - Returns true if the object is an instance of the class. Returns false if the object is not an instance of the class.
- string methods - A method is a function that is used to perform an action on a string.nnn
+ string methods - A method is a function that is used to perform an action on a string
